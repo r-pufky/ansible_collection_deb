@@ -1,0 +1,115 @@
+---
+# https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
+releases:
+  1.0.0:
+    release_date: '2025-05-17'
+    codename: '2025-05-17'
+    changes:
+      release_summary: 'Base Debian roles added.'
+      major_changes:
+        - 'Migrated base Debian roles from ansible_collection_srv.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
+# modules:
+#   - name: head
+#     description: Make a HEAD request
+#     namespace: 'net_tools.rest'
+#   - name: echo
+#     description: Echo params
+#     namespace: ''
+# plugins:
+#   lookup:
+#     - name: reverse
+#       description: Reverse magic
+#       namespace: null
+#   inventory:
+#     - name: docker
+#       description: Inventory plugin for docker containers
+#       namespace: null
+# objects:
+#   role:
+#     - name: install_reqs
+#       description: Install all requirements of this collection
+#       namespace: null
+#   playbook:
+#     - name: wipe_personal_data
+#       description: Wipes all personal data from the database
+#       namespace: null
