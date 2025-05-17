@@ -1,5 +1,5 @@
 # ansible builds
-r_pufky-srv*.tar.gz
+r_pufky-deb*.tar.gz
 .ansible/
 .ansible
 .vscode/

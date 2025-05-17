@@ -1,18 +1,13 @@
 ---
 namespace: 'r_pufky'
 name: 'deb'
-version: '12.0.0'
+version: '12.0.1'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
 description: |
-  Manage Debian base OS.
-
   Provides common Debian OS configuration and convenience wrappers for base OS
   configuration and preparation.
-
-  Major release versions track Debian releases:
-  * 12.x.x: Debian 12 (Bookworm)
 license_file: 'LICENSE'
 tags:
   - 'debian'
