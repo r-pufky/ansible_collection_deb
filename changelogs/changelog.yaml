@@ -2,25 +2,34 @@
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
   13.0.4:
-      release_date: '2025-09-08'
-      codename: '2025-09-08'
+      release_date: '2025-10-05'
+      codename: '2025-10-05'
       changes:
-        release_summary: 'Update collection dependencies.'
+        release_summary: 'Migrate VM tests from testing to Trixie image.'
         major_changes:
           - 'roles/systemd - Fix exec string/int type conversion failure.'
         minor_changes:
-          - 'roles/repo - Message alerting format updates.'
-          - 'roles/dropbear - Update role example documentation.'
+          - 'roles/avenv - 13.0.1 - Use explicit list for extract options.'
+          - 'roles/dropbear - 13.0.2 - Use Trixie VM image.'
+          - 'roles/firmware - 13.0.1 - Use Trixie VM image.'
+          - 'roles/network - 13.0.1 - Use Trixie VM image.'
+          - 'roles/nfs - 13.0.1 - Use Trixie VM image.'
+          - 'roles/os - 13.0.1 - Use Trixie VM image.'
+          - 'roles/repo - 13.0.2 - Update docstring extra options list.'
+          - 'roles/systemd - 13.0.3 - Use Trixie VM image.'
+          - 'roles/wireguard - 13.0.1 - Use Trixie VM image.'
+          - 'roles/zfs - 13.0.1 - Use Trixie VM image.'
+          - 'roles/Update ansible.env namespace.'
         breaking_changes:
           - 'N/A'
         deprecated_features:
           - 'N/A'
         removed_features:
-          - 'N/A'
+          - 'docs/ - Development docs no longer included in release package.'
         security_fixes:
           - 'N/A'
         bugfixes:
-          - 'roles/systemd - Fix exec string/int type conversion failure.'
+          - 'N/A'
       objects:
         role:
           - name: 'apt'
@@ -93,11 +102,12 @@ releases:
       release_date: '2025-09-08'
       codename: '2025-09-08'
       changes:
-        release_summary: 'Fix systemd string/int conversions.'
+        release_summary: 'Update collection dependencies.'
         major_changes:
-          - 'N/A'
+          - 'roles/systemd - Fix exec string/int type conversion failure.'
         minor_changes:
           - 'roles/repo - Message alerting format updates.'
+          - 'roles/dropbear - Update role example documentation.'
         breaking_changes:
           - 'N/A'
         deprecated_features:
