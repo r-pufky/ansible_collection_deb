@@ -1,458 +1,545 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.7:
+    release_date: '2025-10-15'
+    codename: '2025-10-15'
+    changes:
+    release_summary: 'Update collection documentation links.'
+    major_changes:
+      - 'N/A'
+    minor_changes:
+      - 'roles/* - Documentation links updated.'
+    breaking_changes:
+      - 'N/A'
+    deprecated_features:
+      - 'N/A'
+    removed_features:
+      - 'N/A'
+    security_fixes:
+      - 'N/A'
+    bugfixes:
+      - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.6:
-      release_date: '2025-10-13'
-      codename: '2025-10-13'
-      changes:
-        release_summary: 'Update collection dependencies.'
-        major_changes:
-          - 'N/A'
-        minor_changes:
-          - 'r_pufky.lib to 13.0.5'
-          - 'ansible.posix to 2.1.0'
-          - 'community.general to 11.4.0.'
-          - 'community.crypto to 3.0.4'
-        breaking_changes:
-          - 'N/A'
-        deprecated_features:
-          - 'N/A'
-        removed_features:
-          - 'N/A'
-        security_fixes:
-          - 'N/A'
-        bugfixes:
-          - 'N/A'
-      objects:
-        role:
-          - name: 'apt'
-            description: >
-              Manage APT packages, repositories, upgrades, and unattended
-              upgrades with a single call.
-            namespace: null
-          - name: 'avenv'
-            description: 'Easily manage virtual environments.'
-            namespace: null
-          - name: 'cron'
-            description: 'Manage cron units with a single call.'
-            namespace: null
-          - name: 'dropbear'
-            description: 'Dropbear initramfs.'
-            namespace: null
-          - name: 'firmware'
-            description: 'Firmware update management.'
-            namespace: null
-          - name: 'fonts'
-            description: 'Manage custom system fonts.'
-            namespace: null
-          - name: 'init'
-            description: 'Init and provision machines for ansible management.'
-            namespace: null
-          - name: 'journald'
-            description: 'Manage journald configuration.'
-            namespace: null
-          - name: 'logrotate'
-            description: 'Manage logrotate configuration.'
-            namespace: null
-          - name: 'network'
-            description: 'Advanced network configuration management.'
-            namespace: null
-          - name: 'nfs'
-            description: 'Manage NFS for ansible hosts.'
-            namespace: null
-          - name: 'os'
-            description: 'Base debian OS configuration.'
-            namespace: null
-          - name: 'repo'
-            description: >
-              Easily download, verify, extract, and stage releases from remote
-              repositories.
-            namespace: null
-          - name: 'secure_boot'
-            description: 'Secure boot management.'
-            namespace: null
-          - name: 'ssh'
-            description: 'Secure Shell (SSH/SSHD) global configuration.'
-            namespace: null
-          - name: 'systemd'
-            description: 'Manage systemd units.'
-            namespace: null
-          - name: 'ufw'
-            description: 'Uncomplicated Firewall configuration.'
-            namespace: null
-          - name: 'users'
-            description: >
-              Manage users and groups in a sane and programmatic way for easy
-              role and user consumption.
-            namespace: null
-          - name: 'wireguard'
-            description: 'Wireguard installation from public release tarball.'
-            namespace: null
-          - name: 'zfs'
-            description: 'ZFS Pool and snapshot management for ansible hosts.'
-            namespace: null
+    release_date: '2025-10-13'
+    codename: '2025-10-13'
+    changes:
+      release_summary: 'Update collection dependencies.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'r_pufky.lib to 13.0.5'
+        - 'ansible.posix to 2.1.0'
+        - 'community.general to 11.4.0.'
+        - 'community.crypto to 3.0.4'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.5:
-      release_date: '2025-10-12'
-      codename: '2025-10-12'
-      changes:
-        release_summary: 'Update collection documentation.'
-        major_changes:
-          - 'N/A'
-        minor_changes:
-          - 'docs/ to 13.0.0.'
-          - 'roles/repo - Use consistent unicode across all roles.'
-          - 'roles/secure_boot - Use consistent unicode across all roles.'
-        breaking_changes:
-          - 'N/A'
-        deprecated_features:
-          - 'N/A'
-        removed_features:
-          - 'N/A'
-        security_fixes:
-          - 'N/A'
-        bugfixes:
-          - 'N/A'
-      objects:
-        role:
-          - name: 'apt'
-            description: >
-              Manage APT packages, repositories, upgrades, and unattended
-              upgrades with a single call.
-            namespace: null
-          - name: 'avenv'
-            description: 'Easily manage virtual environments.'
-            namespace: null
-          - name: 'cron'
-            description: 'Manage cron units with a single call.'
-            namespace: null
-          - name: 'dropbear'
-            description: 'Dropbear initramfs.'
-            namespace: null
-          - name: 'firmware'
-            description: 'Firmware update management.'
-            namespace: null
-          - name: 'fonts'
-            description: 'Manage custom system fonts.'
-            namespace: null
-          - name: 'init'
-            description: 'Init and provision machines for ansible management.'
-            namespace: null
-          - name: 'journald'
-            description: 'Manage journald configuration.'
-            namespace: null
-          - name: 'logrotate'
-            description: 'Manage logrotate configuration.'
-            namespace: null
-          - name: 'network'
-            description: 'Advanced network configuration management.'
-            namespace: null
-          - name: 'nfs'
-            description: 'Manage NFS for ansible hosts.'
-            namespace: null
-          - name: 'os'
-            description: 'Base debian OS configuration.'
-            namespace: null
-          - name: 'repo'
-            description: >
-              Easily download, verify, extract, and stage releases from remote
-              repositories.
-            namespace: null
-          - name: 'secure_boot'
-            description: 'Secure boot management.'
-            namespace: null
-          - name: 'ssh'
-            description: 'Secure Shell (SSH/SSHD) global configuration.'
-            namespace: null
-          - name: 'systemd'
-            description: 'Manage systemd units.'
-            namespace: null
-          - name: 'ufw'
-            description: 'Uncomplicated Firewall configuration.'
-            namespace: null
-          - name: 'users'
-            description: >
-              Manage users and groups in a sane and programmatic way for easy
-              role and user consumption.
-            namespace: null
-          - name: 'wireguard'
-            description: 'Wireguard installation from public release tarball.'
-            namespace: null
-          - name: 'zfs'
-            description: 'ZFS Pool and snapshot management for ansible hosts.'
-            namespace: null
+    release_date: '2025-10-12'
+    codename: '2025-10-12'
+    changes:
+      release_summary: 'Update collection documentation.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'docs/ to 13.0.0.'
+        - 'roles/repo - Use consistent unicode across all roles.'
+        - 'roles/secure_boot - Use consistent unicode across all roles.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.4:
-      release_date: '2025-10-05'
-      codename: '2025-10-05'
-      changes:
-        release_summary: 'Migrate VM tests from testing to Trixie image.'
-        major_changes:
-          - 'roles/systemd - Fix exec string/int type conversion failure.'
-        minor_changes:
-          - 'roles/avenv - 13.0.1 - Use explicit list for extract options.'
-          - 'roles/dropbear - 13.0.2 - Use Trixie VM image.'
-          - 'roles/firmware - 13.0.1 - Use Trixie VM image.'
-          - 'roles/network - 13.0.1 - Use Trixie VM image.'
-          - 'roles/nfs - 13.0.1 - Use Trixie VM image.'
-          - 'roles/os - 13.0.1 - Use Trixie VM image.'
-          - 'roles/repo - 13.0.2 - Update docstring extra options list.'
-          - 'roles/systemd - 13.0.3 - Use Trixie VM image.'
-          - 'roles/wireguard - 13.0.1 - Use Trixie VM image.'
-          - 'roles/zfs - 13.0.1 - Use Trixie VM image.'
-          - 'roles/Update ansible.env namespace.'
-        breaking_changes:
-          - 'N/A'
-        deprecated_features:
-          - 'N/A'
-        removed_features:
-          - 'docs/ - Development docs no longer included in release package.'
-        security_fixes:
-          - 'N/A'
-        bugfixes:
-          - 'N/A'
-      objects:
-        role:
-          - name: 'apt'
-            description: >
-              Manage APT packages, repositories, upgrades, and unattended
-              upgrades with a single call.
-            namespace: null
-          - name: 'avenv'
-            description: 'Easily manage virtual environments.'
-            namespace: null
-          - name: 'cron'
-            description: 'Manage cron units with a single call.'
-            namespace: null
-          - name: 'dropbear'
-            description: 'Dropbear initramfs.'
-            namespace: null
-          - name: 'firmware'
-            description: 'Firmware update management.'
-            namespace: null
-          - name: 'fonts'
-            description: 'Manage custom system fonts.'
-            namespace: null
-          - name: 'init'
-            description: 'Init and provision machines for ansible management.'
-            namespace: null
-          - name: 'journald'
-            description: 'Manage journald configuration.'
-            namespace: null
-          - name: 'logrotate'
-            description: 'Manage logrotate configuration.'
-            namespace: null
-          - name: 'network'
-            description: 'Advanced network configuration management.'
-            namespace: null
-          - name: 'nfs'
-            description: 'Manage NFS for ansible hosts.'
-            namespace: null
-          - name: 'os'
-            description: 'Base debian OS configuration.'
-            namespace: null
-          - name: 'repo'
-            description: >
-              Easily download, verify, extract, and stage releases from remote
-              repositories.
-            namespace: null
-          - name: 'secure_boot'
-            description: 'Secure boot management.'
-            namespace: null
-          - name: 'ssh'
-            description: 'Secure Shell (SSH/SSHD) global configuration.'
-            namespace: null
-          - name: 'systemd'
-            description: 'Manage systemd units.'
-            namespace: null
-          - name: 'ufw'
-            description: 'Uncomplicated Firewall configuration.'
-            namespace: null
-          - name: 'users'
-            description: >
-              Manage users and groups in a sane and programmatic way for easy
-              role and user consumption.
-            namespace: null
-          - name: 'wireguard'
-            description: 'Wireguard installation from public release tarball.'
-            namespace: null
-          - name: 'zfs'
-            description: 'ZFS Pool and snapshot management for ansible hosts.'
-            namespace: null
+    release_date: '2025-10-05'
+    codename: '2025-10-05'
+    changes:
+      release_summary: 'Migrate VM tests from testing to Trixie image.'
+      major_changes:
+        - 'roles/systemd - Fix exec string/int type conversion failure.'
+      minor_changes:
+        - 'roles/avenv - 13.0.1 - Use explicit list for extract options.'
+        - 'roles/dropbear - 13.0.2 - Use Trixie VM image.'
+        - 'roles/firmware - 13.0.1 - Use Trixie VM image.'
+        - 'roles/network - 13.0.1 - Use Trixie VM image.'
+        - 'roles/nfs - 13.0.1 - Use Trixie VM image.'
+        - 'roles/os - 13.0.1 - Use Trixie VM image.'
+        - 'roles/repo - 13.0.2 - Update docstring extra options list.'
+        - 'roles/systemd - 13.0.3 - Use Trixie VM image.'
+        - 'roles/wireguard - 13.0.1 - Use Trixie VM image.'
+        - 'roles/zfs - 13.0.1 - Use Trixie VM image.'
+        - 'roles/Update ansible.env namespace.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'docs/ - Development docs no longer included in release package.'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.3:
-      release_date: '2025-09-08'
-      codename: '2025-09-08'
-      changes:
-        release_summary: 'Update collection dependencies.'
-        major_changes:
-          - 'roles/systemd - Fix exec string/int type conversion failure.'
-        minor_changes:
-          - 'roles/repo - Message alerting format updates.'
-          - 'roles/dropbear - Update role example documentation.'
-        breaking_changes:
-          - 'N/A'
-        deprecated_features:
-          - 'N/A'
-        removed_features:
-          - 'N/A'
-        security_fixes:
-          - 'N/A'
-        bugfixes:
-          - 'roles/systemd - Fix exec string/int type conversion failure.'
-      objects:
-        role:
-          - name: 'apt'
-            description: >
-              Manage APT packages, repositories, upgrades, and unattended
-              upgrades with a single call.
-            namespace: null
-          - name: 'avenv'
-            description: 'Easily manage virtual environments.'
-            namespace: null
-          - name: 'cron'
-            description: 'Manage cron units with a single call.'
-            namespace: null
-          - name: 'dropbear'
-            description: 'Dropbear initramfs.'
-            namespace: null
-          - name: 'firmware'
-            description: 'Firmware update management.'
-            namespace: null
-          - name: 'fonts'
-            description: 'Manage custom system fonts.'
-            namespace: null
-          - name: 'init'
-            description: 'Init and provision machines for ansible management.'
-            namespace: null
-          - name: 'journald'
-            description: 'Manage journald configuration.'
-            namespace: null
-          - name: 'logrotate'
-            description: 'Manage logrotate configuration.'
-            namespace: null
-          - name: 'network'
-            description: 'Advanced network configuration management.'
-            namespace: null
-          - name: 'nfs'
-            description: 'Manage NFS for ansible hosts.'
-            namespace: null
-          - name: 'os'
-            description: 'Base debian OS configuration.'
-            namespace: null
-          - name: 'repo'
-            description: >
-              Easily download, verify, extract, and stage releases from remote
-              repositories.
-            namespace: null
-          - name: 'secure_boot'
-            description: 'Secure boot management.'
-            namespace: null
-          - name: 'ssh'
-            description: 'Secure Shell (SSH/SSHD) global configuration.'
-            namespace: null
-          - name: 'systemd'
-            description: 'Manage systemd units.'
-            namespace: null
-          - name: 'ufw'
-            description: 'Uncomplicated Firewall configuration.'
-            namespace: null
-          - name: 'users'
-            description: >
-              Manage users and groups in a sane and programmatic way for easy
-              role and user consumption.
-            namespace: null
-          - name: 'wireguard'
-            description: 'Wireguard installation from public release tarball.'
-            namespace: null
-          - name: 'zfs'
-            description: 'ZFS Pool and snapshot management for ansible hosts.'
-            namespace: null
+    release_date: '2025-09-08'
+    codename: '2025-09-08'
+    changes:
+      release_summary: 'Update collection dependencies.'
+      major_changes:
+        - 'roles/systemd - Fix exec string/int type conversion failure.'
+      minor_changes:
+        - 'roles/repo - Message alerting format updates.'
+        - 'roles/dropbear - Update role example documentation.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'roles/systemd - Fix exec string/int type conversion failure.'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.2:
-      release_date: '2025-08-26'
-      codename: '2025-08-26'
-      changes:
-        release_summary: 'Fix Trixie edge cases.'
-        major_changes:
-          - 'roles/ufw - Explicitly disable/enable instead of reload for IPv6.'
-        minor_changes:
-          - 'roles/apt - Fix explicit templating error.'
-          - 'roles/systemd - Clarify ansible conditions for daemon-reload.'
-        breaking_changes:
-          - 'N/A'
-        deprecated_features:
-          - 'N/A'
-        removed_features:
-          - 'N/A'
-        security_fixes:
-          - 'N/A'
-        bugfixes:
-          - 'N/A'
-      objects:
-        role:
-          - name: 'apt'
-            description: >
-              Manage APT packages, repositories, upgrades, and unattended
-              upgrades with a single call.
-            namespace: null
-          - name: 'avenv'
-            description: 'Easily manage virtual environments.'
-            namespace: null
-          - name: 'cron'
-            description: 'Manage cron units with a single call.'
-            namespace: null
-          - name: 'dropbear'
-            description: 'Dropbear initramfs.'
-            namespace: null
-          - name: 'firmware'
-            description: 'Firmware update management.'
-            namespace: null
-          - name: 'fonts'
-            description: 'Manage custom system fonts.'
-            namespace: null
-          - name: 'init'
-            description: 'Init and provision machines for ansible management.'
-            namespace: null
-          - name: 'journald'
-            description: 'Manage journald configuration.'
-            namespace: null
-          - name: 'logrotate'
-            description: 'Manage logrotate configuration.'
-            namespace: null
-          - name: 'network'
-            description: 'Advanced network configuration management.'
-            namespace: null
-          - name: 'nfs'
-            description: 'Manage NFS for ansible hosts.'
-            namespace: null
-          - name: 'os'
-            description: 'Base debian OS configuration.'
-            namespace: null
-          - name: 'repo'
-            description: >
-              Easily download, verify, extract, and stage releases from remote
-              repositories.
-            namespace: null
-          - name: 'secure_boot'
-            description: 'Secure boot management.'
-            namespace: null
-          - name: 'ssh'
-            description: 'Secure Shell (SSH/SSHD) global configuration.'
-            namespace: null
-          - name: 'systemd'
-            description: 'Manage systemd units.'
-            namespace: null
-          - name: 'ufw'
-            description: 'Uncomplicated Firewall configuration.'
-            namespace: null
-          - name: 'users'
-            description: >
-              Manage users and groups in a sane and programmatic way for easy
-              role and user consumption.
-            namespace: null
-          - name: 'wireguard'
-            description: 'Wireguard installation from public release tarball.'
-            namespace: null
-          - name: 'zfs'
-            description: 'ZFS Pool and snapshot management for ansible hosts.'
-            namespace: null
+    release_date: '2025-08-26'
+    codename: '2025-08-26'
+    changes:
+      release_summary: 'Fix Trixie edge cases.'
+      major_changes:
+        - 'roles/ufw - Explicitly disable/enable instead of reload for IPv6.'
+      minor_changes:
+        - 'roles/apt - Fix explicit templating error.'
+        - 'roles/systemd - Clarify ansible conditions for daemon-reload.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'apt'
+          description: >
+            Manage APT packages, repositories, upgrades, and unattended
+            upgrades with a single call.
+          namespace: null
+        - name: 'avenv'
+          description: 'Easily manage virtual environments.'
+          namespace: null
+        - name: 'cron'
+          description: 'Manage cron units with a single call.'
+          namespace: null
+        - name: 'dropbear'
+          description: 'Dropbear initramfs.'
+          namespace: null
+        - name: 'firmware'
+          description: 'Firmware update management.'
+          namespace: null
+        - name: 'fonts'
+          description: 'Manage custom system fonts.'
+          namespace: null
+        - name: 'init'
+          description: 'Init and provision machines for ansible management.'
+          namespace: null
+        - name: 'journald'
+          description: 'Manage journald configuration.'
+          namespace: null
+        - name: 'logrotate'
+          description: 'Manage logrotate configuration.'
+          namespace: null
+        - name: 'network'
+          description: 'Advanced network configuration management.'
+          namespace: null
+        - name: 'nfs'
+          description: 'Manage NFS for ansible hosts.'
+          namespace: null
+        - name: 'os'
+          description: 'Base debian OS configuration.'
+          namespace: null
+        - name: 'repo'
+          description: >
+            Easily download, verify, extract, and stage releases from remote
+            repositories.
+          namespace: null
+        - name: 'secure_boot'
+          description: 'Secure boot management.'
+          namespace: null
+        - name: 'ssh'
+          description: 'Secure Shell (SSH/SSHD) global configuration.'
+          namespace: null
+        - name: 'systemd'
+          description: 'Manage systemd units.'
+          namespace: null
+        - name: 'ufw'
+          description: 'Uncomplicated Firewall configuration.'
+          namespace: null
+        - name: 'users'
+          description: >
+            Manage users and groups in a sane and programmatic way for easy
+            role and user consumption.
+          namespace: null
+        - name: 'wireguard'
+          description: 'Wireguard installation from public release tarball.'
+          namespace: null
+        - name: 'zfs'
+          description: 'ZFS Pool and snapshot management for ansible hosts.'
+          namespace: null
   13.0.1:
     release_date: '2025-08-23'
     codename: '2025-08-23'
@@ -627,7 +714,6 @@ releases:
         - name: 'zfs'
           description: 'ZFS Pool and snapshot management for ansible hosts.'
           namespace: null
-releases:
   12.0.6:
     release_date: '2025-08-14'
     codename: '2025-08-14'

@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'deb'
-version: '13.0.6'
+version: '13.0.7'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -19,7 +19,7 @@ tags:
   - 'tools'
   - 'networking'
 dependencies:
-  'r_pufky.lib': '>=13.0.5,<14.0.0'
+  'r_pufky.lib': '>=13.0.6,<14.0.0'
   'r_pufky.data': '>=3.0.3'
   'ansible.posix': '=2.1.0'
   'community.general': '=11.4.0'
