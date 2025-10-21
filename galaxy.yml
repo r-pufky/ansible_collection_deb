@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'deb'
-version: '13.0.7'
+version: '13.0.8'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -27,8 +27,7 @@ dependencies:
   'moreati.uv': '>=0.0.3'
 
 repository: 'https://github.com/r-pufky/ansible_collection_deb'
-documentation:
-  'https://github.com/r-pufky/ansible_colection_deb/docs/README.md'
+documentation: 'https://github.com/r-pufky/ansible_collection_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_deb'
 issues: 'https://github.com/r-pufky/ansible_collection_deb/issues'
 
