@@ -58,9 +58,6 @@
 [submodule "roles/zfs"]
 	path = roles/zfs
 	url = https://github.com/r-pufky/ansible_zfs
-[submodule "docs"]
-	path = docs
-	url = https://github.com/r-pufky/ansible_collection_docs
 [submodule "roles/os"]
 	path = roles/os
 	url = https://github.com/r-pufky/ansible_debian_os
