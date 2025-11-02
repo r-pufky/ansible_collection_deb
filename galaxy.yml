@@ -5,7 +5,7 @@ version: '13.0.10'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
-description: |
+description: >
   Provides common Debian OS configuration and convenience wrappers for base OS
   configuration and preparation.
 license_file: 'LICENSE'
