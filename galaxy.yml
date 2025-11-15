@@ -27,7 +27,7 @@ dependencies:
   'moreati.uv': '>=0.0.3'
 
 repository: 'https://github.com/r-pufky/ansible_collection_deb'
-documentation: 'https://github.com/r-pufky/ansible_collection_docs'
+documentation: 'https://r-pufky.github.io/ansible_collection_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_deb'
 issues: 'https://github.com/r-pufky/ansible_collection_deb/issues'
 
