@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'deb'
-version: '13.0.11'
+version: '13.0.8'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -19,12 +19,10 @@ tags:
   - 'tools'
   - 'networking'
 dependencies:
-  'r_pufky.lib': '>=13.0.8,<14.0.0'
-  'r_pufky.data': '>=3.0.5'
-  'ansible.posix': '=2.1.0'
-  'community.general': '=11.4.0'
-  'community.crypto': '=3.0.4'
-  'moreati.uv': '>=0.0.3'
+  'r_pufky.data': '>=3.1.0,<4.0.0'
+  'ansible.posix': '>=2.1.0,<3.0.0'
+  'community.general': '>=12.4.0,<13.0.0'
+  'community.crypto': '>=3.1.1,<4.0.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_deb'
 documentation: 'https://r-pufky.github.io/ansible_collection_docs'
