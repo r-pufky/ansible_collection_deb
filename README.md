@@ -2,18 +2,16 @@
 Provides common Debian OS configuration and convenience wrappers for base OS
 configuration and preparation.
 
-> Use a **static** version.
+> Always use a **static** version.
 
-See [Documentation](https://r-pufky.github.io/ansible_docs) for development
-setup, requirements, and submission practices. See Individual role
-documentation for usage.
+See [Documentation][a] for development setup, requirements, and submission
+practices. See Individual role documentation for usage.
 
-[Install from Galaxy](https://galaxy.ansible.com/ui/repo/published/r_pufky/deb).
+[Install from Galaxy][g].
 
-[Related Collections](https://galaxy.ansible.com/ui/namespaces/r_pufky).
+[Related Collections][h].
 
-## Versions
-[Semantic versioning](https://semver.org/spec/v2.0.0).
+### [Releases][b]
 
  Release | Debian | Ansible | Notes
 ---------|--------|---------|-------
@@ -23,9 +21,18 @@ documentation for usage.
  1.x.x   | 12     | 2.18    | Migration from private repository.
 
 ## License
-[AGPL-3.0 License](https://www.tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0)
- [(direct link)](https://github.com/r-pufky/ansible_tests/blob/main/LICENSE)
+[AGPL-3.0 License][c] | [direct link][f]
 
 ## Author Information
-PGP Fingerprint: [466EEC2B67516C7117C85CE3A0BC35D16698BAB9](https://keys.openpgp.org/vks/v1/by-fingerprint/466EEC2B67516C7117C85CE3A0BC35D16698BAB9)
-| [github gist](https://gist.github.com/r-pufky/a8df36977c55b5bb20829267c4c49d22)
+PGP: [466EEC2B67516C7117C85CE3A0BC35D16698BAB9][d] | [github gist][e]
+
+
+[a]: https://r-pufky.github.io/ansible_docs
+[b]: https://semver.org/spec/v2.0.0
+[c]: https://www.tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0
+[d]: https://keys.openpgp.org/vks/v1/by-fingerprint/466EEC2B67516C7117C85CE3A0BC35D16698BAB9
+[e]: https://gist.github.com/r-pufky/a8df36977c55b5bb20829267c4c49d22
+
+[f]: https://github.com/r-pufky/ansible_wireguard/blob/main/LICENSE
+[g]: https://galaxy.ansible.com/ui/repo/published/r_pufky/deb
+[h]: https://galaxy.ansible.com/ui/namespaces/r_pufky
