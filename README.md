@@ -33,6 +33,6 @@ PGP: [466EEC2B67516C7117C85CE3A0BC35D16698BAB9][d] | [github gist][e]
 [d]: https://keys.openpgp.org/vks/v1/by-fingerprint/466EEC2B67516C7117C85CE3A0BC35D16698BAB9
 [e]: https://gist.github.com/r-pufky/a8df36977c55b5bb20829267c4c49d22
 
-[f]: https://github.com/r-pufky/ansible_wireguard/blob/main/LICENSE
+[f]: https://github.com/r-pufky/ansible_collection_media/blob/main/LICENSE
 [g]: https://galaxy.ansible.com/ui/repo/published/r_pufky/deb
 [h]: https://galaxy.ansible.com/ui/namespaces/r_pufky
