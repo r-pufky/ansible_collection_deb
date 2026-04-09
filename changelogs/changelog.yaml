@@ -1,45 +1,62 @@
 ---
 ancestor: 3.0.7
 releases:
+  4.0.1:
+    release_date: '2026-04-09'
+    codename: '2026-04-09'
+    changes:
+      release_summary: 'Update to r_pufky.data.v3 3.2.1.'
+      major_changes:
+        - 'r_pufky.data.v3 - 3.2.1 - Fix cache_git string truncation.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
   4.0.0:
     release_date: '2026-03-13'
     codename: '2026-03-13'
     changes:
-    release_summary: 'Migrate to Ansible 2.20 (breaking changes).'
-    major_changes:
-      - 'Ansible 2.20 migration.'
-      - 'Dev: Backend VM testing switched to libvirt.'
-      - >
-        Dev: Backend environment updated and auto-configured resolving Molecule
-        25.1.0+ breakage (#301, #4380).
-    minor_changes:
-      - 'roles/* - Migrate remaining documentation.'
-    breaking_changes:
-      - >
-        All roles have breaking changes. As ansible 2.19 resulted in touching a
-        lot of old roles, the opportunity was used to update all roles and
-        resolve issues with them. Changes across all roles include:
+      release_summary: 'Migrate to Ansible 2.20 (breaking changes).'
+      major_changes:
+        - 'Ansible 2.20 migration.'
+        - 'Dev: Backend VM testing switched to libvirt.'
+        - >
+          Dev: Backend environment updated and auto-configured resolving Molecule
+          25.1.0+ breakage (#301, #4380).
+      minor_changes:
+        - 'roles/* - Migrate remaining documentation.'
+      breaking_changes:
+        - >
+          All roles have breaking changes. As ansible 2.19 resulted in touching a
+          lot of old roles, the opportunity was used to update all roles and
+          resolve issues with them. Changes across all roles include:
 
-        * Feature Flags.
-        * Migration to semantic versioning (collection and roles).
-        * Ansible 2.20 support.
-        * Removal of unused modules in the pre-release.
+          * Feature Flags.
+          * Migration to semantic versioning (collection and roles).
+          * Ansible 2.20 support.
+          * Removal of unused modules in the pre-release.
 
-        All consumers must check roles. Major breaking changes will be avoided
-        again until then next round of breaking ansible changes.
-    deprecated_features:
-      - 'N/A'
-    removed_features:
-      - 'roles/avenv'
-      - 'roles/cron'
-      - 'roles/fonts'
-      - 'roles/repo'
-      - 'roles/secure_boot'
-      - 'roles/systemd'
-    security_fixes:
-      - 'N/A'
-    bugfixes:
-      - 'N/A'
+          All consumers must check roles. Major breaking changes will be avoided
+          again until then next round of breaking ansible changes.
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'roles/avenv'
+        - 'roles/cron'
+        - 'roles/fonts'
+        - 'roles/repo'
+        - 'roles/secure_boot'
+        - 'roles/systemd'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
     objects:
       role:
         - name: 'apt'
