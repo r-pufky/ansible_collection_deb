@@ -1,6 +1,35 @@
 ---
 ancestor: 3.0.7
 releases:
+  4.0.2:
+    release_date: '2026-04-14'
+    codename: '2026-04-14'
+    changes:
+      release_summary: 'Fix real-world edge cases.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - >
+          roles/network - 3.0.2 - Fix edge case of missing rt_tables.d.
+
+          In certain cases the ifupdown2 package does not create the required
+          /etc directory during interface state change, resulting in failure.
+          Manually ensure this directory exists for interface state changes to
+          succeed.
+        - >
+          roles/users - 3.0.2 - Force bool interpretation of extension bools.
+
+          Use human-readable format for SSH keys, authorized keys lists.
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
   4.0.1:
     release_date: '2026-04-09'
     codename: '2026-04-09'
@@ -8,6 +37,8 @@ releases:
       release_summary: 'Update to r_pufky.data.v3 3.2.1.'
       major_changes:
         - 'r_pufky.data.v3 - 3.2.1 - Fix cache_git string truncation.'
+      minor_changes:
+        - 'N/A'
       breaking_changes:
         - 'N/A'
       deprecated_features:
